@@ -120,7 +120,8 @@ class TestBackupVault(unittest.TestCase):
         for f in files:
             self.assertTrue(f.exists(), f"File {f.name} should NOT be deleted in dry-run mode!")
 
-    def test_backup_mysql_simulation(self):
+    @patch("shutil.which", return_value=None)
+    def test_backup_mysql_simulation(self, mock_which):
         out = self.vault.backup_mysql("localhost", "root", "secret", "testdb")
         self.assertIsNotNone(out)
         self.assertTrue(out.exists())
