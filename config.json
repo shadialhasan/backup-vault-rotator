@@ -1,0 +1,11 @@
+{
+  "db_host": "localhost",
+  "db_user": "root",
+  "db_password": "secret_password_here",
+  "db_name": "production_erp",
+  "backup_dir": "./backups",
+  "keep_daily": 7,
+  "keep_weekly": 4,
+  "keep_monthly": 12,
+  "dry_run": false
+}
