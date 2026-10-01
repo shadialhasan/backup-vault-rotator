@@ -3,10 +3,10 @@
 > **Topics:** `database-backup` `gfs-retention` `mysql-backup` `devops` `backup-rotation` `disaster-recovery` `sysadmin`
 
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/backup-vault-rotator/releases/tag/v1.0.0)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/shadialhasan/backup-vault-rotator/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Ops: Database Backup](https://img.shields.io/badge/Strategy-GFS%20Retention-success.svg)](https://github.com/MobileConduit)
-[![CI/CD Pipeline](https://github.com/MobileConduit/backup-vault-rotator/actions/workflows/ci.yml/badge.svg)](https://github.com/MobileConduit/backup-vault-rotator/actions)
+[![Ops: Database Backup](https://img.shields.io/badge/Strategy-GFS%20Retention-success.svg)](https://github.com/shadialhasan)
+[![CI/CD Pipeline](https://github.com/shadialhasan/backup-vault-rotator/actions/workflows/ci.yml/badge.svg)](https://github.com/shadialhasan/backup-vault-rotator/actions)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-brightgreen.svg)](https://python.org)
 
 Enterprise-grade database backup rotation utility implementing the **Grandfather-Father-Son (GFS)** lifecycle strategy. Maintains **7 daily (Sons)**, **4 weekly (Fathers)**, and **12 monthly (Grandfathers)** snapshots while safely pruning obsolete and redundant dumps to conserve storage.
@@ -56,7 +56,7 @@ flowchart TD
 
 ### 1. Installation
 ```bash
-git clone https://github.com/MobileConduit/backup-vault-rotator.git
+git clone https://github.com/shadialhasan/backup-vault-rotator.git
 cd backup-vault-rotator
 pip install -r requirements.txt
 ```
@@ -144,7 +144,7 @@ python -m unittest discover -s tests -v
 - **Email:** [mhd.shadi.alhasan@gmail.com](mailto:mhd.shadi.alhasan@gmail.com)  
 - **Phone / WhatsApp:** [+963934005922](tel:+963934005922)  
 - **Location:** Damascus, Syria  
-- **GitHub:** [MobileConduit](https://github.com/MobileConduit)  
+- **GitHub:** [shadialhasan](https://github.com/shadialhasan)  
 
 ---
 
