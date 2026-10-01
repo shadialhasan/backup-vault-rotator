@@ -1,5 +1,8 @@
 # 🛡️ backup-vault-rotator
 
+> **Topics:** `database-backup` `gfs-retention` `mysql-backup` `devops` `backup-rotation` `disaster-recovery` `sysadmin`
+
+
 [![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/backup-vault-rotator/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Ops: Database Backup](https://img.shields.io/badge/Strategy-GFS%20Retention-success.svg)](https://github.com/MobileConduit)

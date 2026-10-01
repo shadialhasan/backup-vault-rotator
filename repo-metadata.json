@@ -1,0 +1,12 @@
+{
+  "description": "Database backup vault with GPG encryption and Grandfather-Father-Son (GFS) retention rotation",
+  "topics": [
+    "database-backup",
+    "gfs-retention",
+    "mysql-backup",
+    "devops",
+    "backup-rotation",
+    "disaster-recovery",
+    "sysadmin"
+  ]
+}
